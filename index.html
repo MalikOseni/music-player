@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="shortcut icon" href="./covers/Bad-to-Me.jpg" type="image/x-icon" class="covers">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <h1><span>play</span>list</h1>
+
+    <div class="container play">
+        <div class="music-info">
+            <h4 id="title">joha</h4>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <audio src="./music/Joha.mp3" id="audio"></audio>
+
+        <div class="image-section">
+            <img src="./covers/joha.jpg" alt="art-cover" id="cover-art">
+        </div>
+        <div class="nav">
+            <button id="prev" class="act-btn">
+                <i class="fas fa-backward"></i>
+            </button>
+            <button id="play" class="act-btn big">
+                <i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="act-btn">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+    </div>
+<footer>
+    <p>created by <span>MalikOseni</span></p>
+</footer>
+</body>
+</html>
